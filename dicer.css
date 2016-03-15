@@ -1,0 +1,64 @@
+#message-box {
+	border: 1px solid black;
+	width: 500px;
+	height: 30px;
+	padding: 10px;
+
+}
+
+.scores {
+	font-size: 40px;
+	line-height: 40px;
+}
+
+#dice-display {
+	width: 400px;
+	min-height: 40px;
+	margin-bottom: 30px;
+}
+
+.button {
+	border-radius: 8px;
+	padding: 5px 10px;
+	background-color: #65ffff;
+	display: inline-block;
+	cursor: pointer;
+	margin-top: 20px;
+	margin-left: 60px;
+
+}
+
+.die {
+	width: 70px;
+	height: 70px;
+	margin: 5px;
+	font-size: 70px;
+	display: inline-block;
+}
+
+.die:not(.permafrost) {
+	cursor: pointer;
+}
+
+.frozen {
+	color: #aff2f3;
+}
+.die1:before {
+	content: "\2680";
+}
+.die2:before {
+	content: "\2681";
+}
+.die3:before {
+	content: "\2682";
+}
+.die4:before {
+	content: "\2683";
+}
+.die5:before {
+	content: "\2684";
+}
+.die6:before {
+	content: "\2685";
+}
+
